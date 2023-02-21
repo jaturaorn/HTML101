@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandotory</h2>
+    <form action="submission.html" method="get"></form>
+    <label for="FullN">Full name*:</label>
+                <br>
+    <input placeholder="Full name" id="FullN" name="FullN" type="text" 
+                pattern="[a-zA-Z0-9]+ minlength="3" maxlength="15">
+                <br>
+    <form action="submission.html" method="get"></form>
+    <label for="Email">Email address*:</label>
+                <br>
+    <input placeholder="Email address" id="Email" name="Email" type="email">
+                <br>
+    <label for="SelTouPac">Select Tour Package*:</label>
+                <br>
+            <select name="SelTouPac">
+                <option value="bali">Bali</option>
+                <option value="bangkok">Bangkok</option>
+                <option value="abudabi">Abudabi</option>
+            </select>
+            <br>
+    <form action="submission.html" method="get"></form>
+            <label for="ArrD">Arrival date*:</label>
+            <br>
+                <input placeholder="Date" id="ArrD" name="ArrD" type="date">
+                <br>
+    <form action="submission.html" method="get"></form>
+        <label for="NumOfPer">Number of person*:</label>
+                <br>
+            <input placeholder="UNKNOW_TYPE" id="NumOfPer" 
+                        name="NumOfPer" type="password" required>
+                            <br>
+        <span>What would you want to avail?*</span>
+                            <br>
+            <input type="checkbox" name="Wwywtoava" id="Boarding" value="Boarding">
+        <label for="Boarding">Boarding</label>
+                            <br>
+            <input type="checkbox" name="Wwywtoava" id="Fooding" value="Fooding">
+        <label for="Fooding">Fooding</label>
+                            <br>
+            <input type="checkbox" name="Wwywtoava" id="Sightseeing" value="Sightseeing">
+        <label for="Sightseeing">Sight seeing</label>
+    <form action="submission.html" method="get"></form>
+        <label for="DisCouCode">Discout Coupon code:</label>
+                            <br>
+            <input placeholder="UNKNOW_TYPE" id="DisCouCode" 
+                    name="DisCouCode" type="text">
+                        <br>        
+    <span>Term and conditions*</span>
+                        <br>  
+            <input type="radio" name="answer" id="Iagr" value="Iagr">
+        <label for="Iagr">I agree</label>
+            <input type="radio" name="answer" id="Idsagr" value="Idsagr">
+        <label for="Idsagr">I disagree</label>
+                        <br>
+            <input type="submit" value="Complete reservation">
+</body>
+</html>
