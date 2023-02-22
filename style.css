@@ -1,10 +1,16 @@
 p {
     font-style: italic;
 }
-div, p, span{ font-size: 12pt;}
+div, p, span{ 
+    font-size: 12pt;
+    background-color: blueviolet;
+}
 
 
 span{
     background-color: wheat;
     font-weight: bold;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
 }
